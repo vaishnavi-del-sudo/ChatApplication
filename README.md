@@ -1,9 +1,9 @@
 **Chatting with JV**
 
-_Chatting with JV is a simple two-person real-time chat application developed in Java.
+Chatting with JV is a simple two-person real-time chat application developed in Java.
 
 The application follows a client-server architecture. A central server manages the connections between two clients and forwards chat messages and read receipts between them.
-_
+
 
 **Features**
 
@@ -37,14 +37,26 @@ No external Java libraries are required.
 
 _```text
 chatting-with-jv/
+
 │
+
 ├── README.md
+
 ├── .gitignore
+
 │
+
 ├── src/
+
 │   ├── ChatClient.java
+
 │   ├── ChatServer.java
+
 │   └── ClientHandler.java
+
 │
+
 └── report/
+
     └── PROJECT_REPORT.md_
+    
