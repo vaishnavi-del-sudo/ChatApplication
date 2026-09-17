@@ -1,4 +1,6 @@
-**Chatting with JV**
+=================================
+       CHATTING WITH JV
+=================================
 
 Chatting with JV is a simple two-person real-time chat application developed in Java.
 
@@ -149,7 +151,7 @@ It processes:
 *Join notifications
 *Leave notifications
 
-**ChatClient**__
+**ChatClient**
 
 ChatClient provides the graphical interface using Java Swing.
 
