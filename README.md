@@ -128,25 +128,7 @@ Enter the second user's name.
 
 The two clients can now exchange messages.
 
-**How It Works**
-
-The application uses a client-server architecture.
-
-             TCP Connection
-       ┌─────────────────────────┐
-       │                         │
-       ▼                         ▼
-  ChatClient A              ChatClient B
-       │                         │
-       └──────────┬──────────────┘
-                  │
-                  ▼
-             ChatServer
-                  │
-                  │
-          ClientHandler threads
-
-**ChatServer**__
+**ChatServer**
 
 ChatServer creates a ServerSocket on port 5000 and waits for incoming connections.
 
@@ -154,7 +136,7 @@ The server allows a maximum of two clients at the same time.
 
 Each accepted client is assigned a separate ClientHandler thread.
 
-**ClientHandler**__
+**ClientHandler**
 
 ClientHandler handles communication for one connected client.
 
