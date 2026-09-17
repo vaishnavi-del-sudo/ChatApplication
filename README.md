@@ -35,7 +35,7 @@ No external Java libraries are required.
 
 **Project Structure**
 
-_```text
+
 chatting-with-jv/
 
 │
